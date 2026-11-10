@@ -38,13 +38,13 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenEmergencyModal }) => {
             </span>
             <span className="hidden sm:inline text-slate-500">·</span>
             <span className="hidden sm:inline text-slate-300">
-              PIRB & SANS Compliant Plumbers across South Africa
+              Professional Plumbing Services Across South Africa
             </span>
           </div>
 
           <div className="flex items-center gap-4 text-xs">
             <span className="text-amber-400 font-medium flex items-center gap-1">
-              24/7 Emergency Dispatch:
+              24/7 Service Line:
             </span>
             <a
               href={`tel:${CONTACT_INFO.emergencyPhoneRaw}`}

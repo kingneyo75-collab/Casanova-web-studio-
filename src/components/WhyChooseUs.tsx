@@ -98,10 +98,10 @@ export const WhyChooseUs: React.FC = () => {
             </div>
             <div>
               <h4 className="text-xl font-bold text-white">
-                R5,000,000 Public Liability Insurance & PIRB Compliance
+                R5,000,000 Public Liability Insurance & Quality Standards
               </h4>
               <p className="text-sm text-slate-300 max-w-2xl mt-1">
-                Your home and property are fully protected. We issue official Plumbing Certificates of Compliance (PIRB CoC) required for property sales, municipal compliance, and insurance claims.
+                Your home and property are fully protected. We carry comprehensive public liability insurance for all residential and commercial plumbing jobs.
               </p>
             </div>
           </div>

@@ -23,7 +23,7 @@ export const EmergencyBanner: React.FC = () => {
                 24/7 Rapid Emergency Plumbing Dispatch
               </span>
               <span className="hidden sm:inline text-xs font-semibold px-2 py-0.5 rounded bg-slate-900 text-amber-300">
-                Avg ETA: 45 Mins
+                Fast Response
               </span>
             </div>
             <p className="text-xs sm:text-sm text-slate-900 font-medium">

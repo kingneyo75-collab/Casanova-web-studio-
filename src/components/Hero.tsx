@@ -22,9 +22,9 @@ export const Hero: React.FC<HeroProps> = () => {
           <div className="lg:col-span-7 space-y-6">
             {/* Regional Trust Kicker (Natural editorial text, no pill box) */}
             <div className="flex items-center gap-2 text-xs font-semibold tracking-wider text-blue-400 uppercase">
-              <span>PIRB Certified</span>
+              <span>Professional Plumbers</span>
               <span aria-hidden="true" className="text-slate-600">·</span>
-              <span>South African Standards Compliant</span>
+              <span>South Africa</span>
               <span aria-hidden="true" className="text-slate-600">·</span>
               <span>Available 24/7</span>
             </div>
@@ -36,22 +36,18 @@ export const Hero: React.FC<HeroProps> = () => {
 
             {/* Subtitle with South African context */}
             <p className="text-base sm:text-lg text-slate-300 max-w-2xl leading-relaxed">
-              Certified, professional plumbing solutions across South Africa. Specializing in rapid burst geyser replacements, hydro-jet drain unblocking, acoustic leak detection, and durable pipe installations with transparent upfront pricing.
+              Professional plumbing solutions across South Africa. Specializing in burst geyser repairs, hydro-jet drain unblocking, leak detection, and pipe installations with clear upfront communication.
             </p>
 
             {/* Key Assurance Indicators */}
-            <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 pt-2 text-xs sm:text-sm text-slate-200">
+            <div className="grid grid-cols-2 gap-3 pt-2 text-xs sm:text-sm text-slate-200">
               <div className="flex items-center gap-2">
                 <CheckCircle2 className="w-4 h-4 text-blue-400 shrink-0" />
-                <span>45–60 Min Response</span>
+                <span>Fast Response</span>
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle2 className="w-4 h-4 text-blue-400 shrink-0" />
-                <span>Fixed Upfront ZAR Quotes</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <CheckCircle2 className="w-4 h-4 text-blue-400 shrink-0" />
-                <span>12-Month Guarantee</span>
+                <span>Free Quotes</span>
               </div>
             </div>
 
@@ -119,8 +115,8 @@ export const Hero: React.FC<HeroProps> = () => {
                       <ShieldCheck className="w-5 h-5" />
                     </div>
                     <div>
-                      <h4 className="text-sm font-bold text-white">Licensed PIRB Technicians</h4>
-                      <p className="text-xs text-slate-300">Registered · Background Checked · Insured</p>
+                      <h4 className="text-sm font-bold text-white">Experienced Technicians</h4>
+                      <p className="text-xs text-slate-300">Dedicated · Reliable · Insured</p>
                     </div>
                   </div>
                   <div className="text-right">
@@ -145,22 +141,22 @@ export const Hero: React.FC<HeroProps> = () => {
               <span className="text-xs text-slate-400 font-medium">Years Serving South Africa</span>
             </div>
             <div className="pt-2 md:pt-0 md:pl-6">
-              <span className="block text-2xl lg:text-3xl font-extrabold text-white font-mono tabular-nums">
-                45 min
+              <span className="block text-2xl lg:text-3xl font-extrabold text-white font-mono">
+                Fast
               </span>
-              <span className="text-xs text-slate-400 font-medium">Average Emergency Arrival</span>
+              <span className="text-xs text-slate-400 font-medium">Response Times</span>
             </div>
             <div className="pt-2 md:pt-0 md:pl-6">
               <span className="block text-2xl lg:text-3xl font-extrabold text-white font-mono tabular-nums">
                 100%
               </span>
-              <span className="text-xs text-slate-400 font-medium">PIRB Compliant Installations</span>
+              <span className="text-xs text-slate-400 font-medium">Dedicated Local Service</span>
             </div>
             <div className="pt-2 md:pt-0 md:pl-6">
               <span className="block text-2xl lg:text-3xl font-extrabold text-emerald-400 font-mono tabular-nums">
                 5.0 ★
               </span>
-              <span className="text-xs text-slate-400 font-medium">Top Rated Local Service</span>
+              <span className="text-xs text-slate-400 font-medium">Quality Focused</span>
             </div>
           </div>
         </div>

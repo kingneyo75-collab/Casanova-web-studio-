@@ -33,7 +33,7 @@ export const Footer: React.FC = () => {
             </p>
 
             <div className="pt-2 text-xs text-slate-500 space-y-1">
-              <p className="font-semibold text-slate-300">Regulatory Compliance:</p>
+              <p className="font-semibold text-slate-300">Standards & Insurance:</p>
               <p>{CONTACT_INFO.registration} · {CONTACT_INFO.compliance}</p>
               <p>{CONTACT_INFO.insurance}</p>
             </div>
@@ -83,7 +83,7 @@ export const Footer: React.FC = () => {
               </li>
               <li>
                 <a href="#reviews" className="hover:text-blue-400 transition-colors">
-                  Sample Customer Reviews
+                  Customer Reviews
                 </a>
               </li>
               <li>

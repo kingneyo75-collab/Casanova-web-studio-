@@ -56,7 +56,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ preselectedServi
     }
 
     if (!formData.phone.trim() || formData.phone.length < 9) {
-      setErrorMsg('Please provide a valid South African phone number (e.g. 082 123 4567).');
+      setErrorMsg('Please provide a valid South African phone number (e.g. 069 314 7737).');
       return;
     }
 
@@ -346,7 +346,7 @@ Details: ${formData.message || 'No additional details'}`;
                         name="phone"
                         value={formData.phone}
                         onChange={handleChange}
-                        placeholder="e.g. 082 123 4567"
+                        placeholder="e.g. 069 314 7737"
                         className="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm"
                         required
                       />

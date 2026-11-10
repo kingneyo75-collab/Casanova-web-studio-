@@ -71,7 +71,7 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ onSelectServic
             Complete Plumbing Services Tailored for South African Homes & Businesses
           </h2>
           <p className="mt-3 text-base sm:text-lg text-slate-600 leading-relaxed">
-            Every job is completed by certified PIRB plumbing professionals adhering to strict SANS standards. We handle everything from sudden emergency pipe bursts to scheduled property renovations.
+            Every job is completed by experienced plumbing professionals. We handle everything from sudden emergency pipe bursts to scheduled property renovations.
           </p>
         </div>
 
@@ -121,7 +121,7 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ onSelectServic
                         Est: {service.typicalDuration}
                       </span>
                       <span className="bg-slate-950/70 backdrop-blur-xs px-2 py-0.5 rounded font-bold text-amber-300">
-                        From R{service.startingPriceZAR}
+                        {service.startingPriceZAR}
                       </span>
                     </div>
                   </div>
@@ -236,16 +236,12 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ onSelectServic
                 <span className="font-semibold text-slate-800">{activeModalService.typicalDuration}</span>
               </div>
               <div className="flex justify-between">
-                <span className="text-slate-500">Starting Price:</span>
-                <span className="font-bold text-blue-700 font-mono">From R{activeModalService.startingPriceZAR} (ZAR)</span>
+                <span className="text-slate-500">Pricing:</span>
+                <span className="font-bold text-blue-700 font-mono">{activeModalService.startingPriceZAR}</span>
               </div>
               <div className="flex justify-between">
-                <span className="text-slate-500">Warranty:</span>
-                <span className="font-semibold text-slate-800">12-Month Workmanship Guarantee</span>
-              </div>
-              <div className="flex justify-between">
-                <span className="text-slate-500">Compliance:</span>
-                <span className="font-semibold text-slate-800">PIRB Certificate Issued Upon Request</span>
+                <span className="text-slate-500">Quotes:</span>
+                <span className="font-semibold text-slate-800">Free Quotes on Inspection</span>
               </div>
             </div>
 

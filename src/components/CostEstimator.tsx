@@ -82,11 +82,13 @@ export const CostEstimator: React.FC<CostEstimatorProps> = ({ onSelectService })
                 {selectedItem.service}
               </h3>
 
-              <div className="flex items-baseline gap-3 py-2">
-                <span className="text-3xl sm:text-4xl font-extrabold text-blue-700 font-mono">
+              <div className="flex items-center gap-3 py-2">
+                <span className="text-xl sm:text-2xl font-extrabold text-blue-700">
                   {selectedItem.range}
                 </span>
-                <span className="text-sm text-slate-500 font-medium">ZAR (incl. VAT)</span>
+                <span className="text-xs font-semibold px-2.5 py-1 rounded bg-blue-100 text-blue-800">
+                  Example estimate only
+                </span>
               </div>
 
               <p className="text-sm text-slate-600 leading-relaxed">
@@ -96,15 +98,15 @@ export const CostEstimator: React.FC<CostEstimatorProps> = ({ onSelectService })
               <div className="space-y-2.5 pt-4 text-xs sm:text-sm text-slate-700">
                 <div className="flex items-center gap-2">
                   <Check className="w-4 h-4 text-blue-600 shrink-0" />
-                  <span>Certified PIRB licensed technician on site</span>
+                  <span>Experienced plumbing technician on site</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Check className="w-4 h-4 text-blue-600 shrink-0" />
-                  <span>Official written invoice and SABS compliant parts</span>
+                  <span>Free quotation before work begins</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Check className="w-4 h-4 text-blue-600 shrink-0" />
-                  <span>12-Month guarantee on replacement components</span>
+                  <span>Quality trade-tested plumbing parts</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Check className="w-4 h-4 text-blue-600 shrink-0" />
