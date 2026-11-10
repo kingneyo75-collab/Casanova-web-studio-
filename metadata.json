@@ -1,0 +1,8 @@
+{
+  "name": "Reliable Plumbing Services",
+  "description": "Licensed and certified plumbing services across South Africa. 24/7 emergency repairs, blocked drains, geysers, leak detection, and pipe installations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
